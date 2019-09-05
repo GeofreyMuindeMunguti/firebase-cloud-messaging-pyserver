@@ -16,8 +16,6 @@ Devices        url/v1/messages      Methods - POST, add a new message
                url/v1/messages/{id}         - PUT , edit
                url/v1/message/{id}          - DELETE , delete 
 
-NB: When you send a message, it is broadcasted to all added devices, with the prod version,
-    I will implement a device selection feature to enabloe sending the notifications to specific
-    devices.
+NB: Check for required fields in each endpoint on the server when you run it.
 
 

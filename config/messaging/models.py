@@ -7,5 +7,5 @@ from fcm.models import AbstractDevice
 
 class MyDevice(AbstractDevice):
 
-    user = models.ForeignKey(settings.AUTH_USER_MODEL)
+    user_id = models.CharField(max_length=30)
 
