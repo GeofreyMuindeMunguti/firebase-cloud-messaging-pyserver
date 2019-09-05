@@ -1,0 +1,23 @@
+Base url = ipaddress:port
+
+Endpoints 
+
+Devices        url/v1/devices      Methods - POST, add a new devices
+                                           - GET , list all devices
+               url/v1/devices/{id}         - GET , get device by Id
+               url/v1/devices/{id}         - PUT , edit
+               url/v1/devices/{id}         - DELETE , delete 
+
+
+
+Devices        url/v1/messages      Methods - POST, add a new message
+                                            - GET , list all message
+               url/v1/messages/{id}         - GET , get message by Id
+               url/v1/messages/{id}         - PUT , edit
+               url/v1/message/{id}          - DELETE , delete 
+
+NB: When you send a message, it is broadcasted to all added devices, with the prod version,
+    I will implement a device selection feature to enabloe sending the notifications to specific
+    devices.
+
+
